@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "BroGym",
+    "slug": "brogym",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "brogym",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#0A0A0A"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.brogym.app"
+    },
+    "android": {
+      "backgroundColor": "#0A0A0A",
+      "package": "com.brogym.app",
+      "permissions": []
+    },
+    "web": {
+      "favicon": "./assets/images/icon.png"
+    },
+    "plugins": [
+      [
+        "expo-router",
+        {
+          "origin": "https://replit.com/"
+        }
+      ],
+      "expo-font",
+      "expo-web-browser"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b4d55007-10a8-4163-9bd8-99e9e4009d92"
+      }
+    },
+    "owner": "alexis.florez"
+  }
+}
